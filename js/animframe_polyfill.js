@@ -7,6 +7,7 @@
       window[vendors[x] + 'CancelRequestAnimationFrame'];
   }
 
+
   if (!window.requestAnimationFrame) {
     window.requestAnimationFrame = function (callback) {
       var currTime = new Date().getTime();
